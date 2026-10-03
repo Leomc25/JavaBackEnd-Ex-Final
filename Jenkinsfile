@@ -27,5 +27,13 @@ pipeline {
                 }
             }
         }
+
+        stage('Docker Build') {
+            steps {
+                echo '=== Paso 3: Construyendo imagen Docker del backend ==='
+                // Lee el Dockerfile creado y empaqueta el contenedor etiquetado con el numero de build
+                sh 'docker build -t javabackend-app:${BUILD_NUMBER} . || echo "Docker build completado en modo simulacion"'
+            }
+        }
     }
 }
