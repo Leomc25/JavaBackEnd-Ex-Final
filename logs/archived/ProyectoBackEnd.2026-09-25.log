@@ -1,0 +1,60 @@
+2026-09-25 00:00:26.064 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tareas-rest/search/porUsuario?id=52&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-25 00:00:26.065 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tareas-rest/search/porUsuario?id=52&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-25 00:00:26.087 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:26.087 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:26.092 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tareas-rest/search/porUsuario?id=52&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-25 00:00:26.179 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:26.181 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PagedModel { content: [EntityModel { content: TaskEntity(idTarea=57, titulo=Validación, estado=Pendi (truncated)...]
+2026-09-25 00:00:26.192 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:26.194 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tareas-rest/search/porUsuario?id=52&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-25 00:00:26.227 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:26.229 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PagedModel { content: [EntityModel { content: TaskEntity(idTarea=57, titulo=Validación, estado=Pendi (truncated)...]
+2026-09-25 00:00:26.234 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:41.814 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tareas-rest", parameters={}
+2026-09-25 00:00:41.818 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:41.822 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/tareas-rest", parameters={}
+2026-09-25 00:00:41.912 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:41.912 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EntityModel { content: TaskEntity(idTarea=65, titulo=Testear el bloque de tareas y su impacto en FRO (truncated)...]
+2026-09-25 00:00:41.916 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2026-09-25 00:00:41.921 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tareas-rest/search/porUsuario?id=52&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-25 00:00:41.955 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:41.956 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PagedModel { content: [EntityModel { content: TaskEntity(idTarea=57, titulo=Validación, estado=Pendi (truncated)...]
+2026-09-25 00:00:41.965 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:47.028 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tareas-rest/search/porUsuario?id=52&page=1&size=5&sort=id,desc", parameters={masked}
+2026-09-25 00:00:47.031 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:47.035 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tareas-rest/search/porUsuario?id=52&page=1&size=5&sort=id,desc", parameters={masked}
+2026-09-25 00:00:47.062 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:47.063 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PagedModel { content: [EntityModel { content: TaskEntity(idTarea=63, titulo=Actualizado desde Postma (truncated)...]
+2026-09-25 00:00:47.071 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:50.807 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:00:50.875 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:50.878 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:00:50.909 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:00:50.925 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:50.981 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:50.983 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:00:51.031 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:53.162 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:00:53.224 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:53.227 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:00:53.245 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:00:53.264 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:53.313 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:53.317 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:00:53.360 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:53.984 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:00:54.043 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:54.045 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:00:54.066 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:00:54.080 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:00:54.129 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:00:54.131 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:00:54.170 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:01:23.010 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:01:23.075 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:01:23.077 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:01:23.102 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-25 00:01:23.122 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-25 00:01:23.185 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-25 00:01:23.187 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-25 00:01:23.227 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK

@@ -1,0 +1,396 @@
+2026-09-24 23:03:32.741 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - Starting ProyectoBackEndApplication using Java 17.0.17 with PID 16208 (C:\Users\leofr\OneDrive\Escritorio\ESPECIALIZACION EN JAVA(CIBERTEC) Y OTRAS\JAVA BACK END\PROYECTO FINAL\ProyectoBackEnd (1)\ProyectoBackEnd\target\classes started by leofr in C:\Users\leofr\OneDrive\Escritorio\ESPECIALIZACION EN JAVA(CIBERTEC) Y OTRAS\JAVA BACK END\PROYECTO FINAL\ProyectoBackEnd (1)\ProyectoBackEnd)
+2026-09-24 23:03:32.751 [restartedMain] DEBUG c.e.P.ProyectoBackEndApplication - Running with Spring Boot v3.5.10, Spring v6.2.15
+2026-09-24 23:03:32.754 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-24 23:03:32.856 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-24 23:03:32.856 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-24 23:03:34.333 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 23:03:34.683 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 299 ms. Found 3 JPA repository interfaces.
+2026-09-24 23:03:37.546 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-24 23:03:37.569 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-24 23:03:37.574 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-24 23:03:37.574 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-09-24 23:03:37.695 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-24 23:03:37.697 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4839 ms
+2026-09-24 23:03:38.081 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-24 23:03:38.179 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-09-24 23:03:38.260 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-09-24 23:03:38.792 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24 23:03:38.858 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-24 23:03:39.135 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3289eef9
+2026-09-24 23:03:39.140 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-24 23:03:39.263 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-24 23:03:39.298 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24 23:03:40.595 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24 23:03:40.747 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 23:03:41.573 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-24 23:03:42.772 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-24 23:03:43.266 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+2026-09-24 23:03:43.527 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-09-24 23:03:43.583 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-24 23:03:43.685 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-09-24 23:03:43.740 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-24 23:03:43.808 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 0 ResponseBodyAdvice
+2026-09-24 23:03:44.216 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-09-24 23:03:44.238 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-24 23:03:44.274 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-24 23:03:44.288 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - Started ProyectoBackEndApplication in 12.177 seconds (process running for 13.188)
+2026-09-24 23:05:17.363 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 23:05:17.364 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-24 23:05:17.365 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-09-24 23:05:17.366 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-09-24 23:05:17.367 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-09-24 23:05:17.371 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@69419cd
+2026-09-24 23:05:17.373 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@17034de5
+2026-09-24 23:05:17.374 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-09-24 23:05:17.374 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2026-09-24 23:05:17.413 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:05:17.462 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:05:17.546 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:05:17.570 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:05:17.572 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:05:17.899 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=admin, contraseña=1234, fechaCreacion=null, estado=null, fecha (truncated)...]
+2026-09-24 23:05:18.186 [http-nio-8080-exec-2] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+2026-09-24 23:05:18.196 [http-nio-8080-exec-2] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: admin
+2026-09-24 23:05:18.968 [http-nio-8080-exec-2] INFO  c.e.P.aspect.LogginAspect - Operación buscarPorNombre completada en 499 ms
+2026-09-24 23:05:18.999 [http-nio-8080-exec-2] INFO  c.e.P.aspect.LogginAspect - Operación validarLogin completada en 8 ms
+2026-09-24 23:05:19.002 [http-nio-8080-exec-2] INFO  c.e.P.controller.LoginController - Login exitoso. Derivando a principal.
+2026-09-24 23:05:19.508 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/vnd.hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/prs.hal-forms+json, application/*+json]
+2026-09-24 23:05:19.513 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EntityModel { content: UsuarioEntity(idUsuario=1, usuario=admin, contraseña=1234, fechaCreacion=2026 (truncated)...]
+2026-09-24 23:05:19.617 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:05:25.061 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/usuarios-rest?page=0&size=5", parameters={masked}
+2026-09-24 23:05:25.061 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/usuarios-rest?page=0&size=5", parameters={masked}
+2026-09-24 23:05:25.095 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:05:25.096 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:05:25.101 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/usuarios-rest?page=0&size=5", parameters={masked}
+2026-09-24 23:05:25.371 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:05:25.390 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: UsuarioEntity(idUsuario=1, usuario=admin, contraseña=1 (truncated)...]
+2026-09-24 23:05:25.478 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:05:25.482 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/usuarios-rest?page=0&size=5", parameters={masked}
+2026-09-24 23:05:25.532 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:05:25.534 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: UsuarioEntity(idUsuario=1, usuario=admin, contraseña=1 (truncated)...]
+2026-09-24 23:05:25.551 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:06:56.551 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:06:56.552 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:06:56.555 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:06:56.559 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:06:56.560 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:06:56.564 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=MesaTI_2026_Feb, contraseña=Mesati, fechaCreacion=null, estado (truncated)...]
+2026-09-24 23:06:56.565 [http-nio-8080-exec-8] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: MesaTI_2026_Feb
+2026-09-24 23:06:56.596 [http-nio-8080-exec-8] INFO  c.e.P.aspect.LogginAspect - Operación buscarPorNombre completada en 10 ms
+2026-09-24 23:06:56.597 [http-nio-8080-exec-8] WARN  c.e.P.controller.LoginController - Login FALLIDO: El usuario 'MesaTI_2026_Feb' está INACTIVO.
+2026-09-24 23:06:56.599 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-24 23:06:56.601 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Usuario inactivo. Contacte al administrador."]
+2026-09-24 23:06:56.604 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 403 FORBIDDEN
+2026-09-24 23:07:55.387 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/usuarios-rest", parameters={}
+2026-09-24 23:07:55.394 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:07:55.400 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/usuarios-rest", parameters={}
+2026-09-24 23:07:55.498 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:07:55.499 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EntityModel { content: UsuarioEntity(idUsuario=54, usuario=User_Test_Prueba_Set, contraseña=12345678 (truncated)...]
+2026-09-24 23:07:55.504 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2026-09-24 23:07:55.534 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/usuarios-rest?page=0&size=5", parameters={masked}
+2026-09-24 23:07:55.576 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:07:55.578 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: UsuarioEntity(idUsuario=1, usuario=admin, contraseña=1 (truncated)...]
+2026-09-24 23:07:55.605 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:08:01.107 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/usuarios-rest?page=9&size=5", parameters={masked}
+2026-09-24 23:08:01.114 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:08:01.119 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/usuarios-rest?page=9&size=5", parameters={masked}
+2026-09-24 23:08:01.145 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:08:01.147 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: UsuarioEntity(idUsuario=51, usuario=userNuevo, contras (truncated)...]
+2026-09-24 23:08:01.156 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:08:08.701 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:08:08.702 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:08:08.705 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=User_Test_Prueba_Set, contraseña=123456789, fechaCreacion=null (truncated)...]
+2026-09-24 23:08:08.705 [http-nio-8080-exec-9] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: User_Test_Prueba_Set
+2026-09-24 23:08:08.726 [http-nio-8080-exec-9] INFO  c.e.P.aspect.LogginAspect - Operación buscarPorNombre completada en 7 ms
+2026-09-24 23:08:08.750 [http-nio-8080-exec-9] INFO  c.e.P.aspect.LogginAspect - Operación validarLogin completada en 6 ms
+2026-09-24 23:08:08.751 [http-nio-8080-exec-9] INFO  c.e.P.controller.LoginController - Login exitoso. Derivando a principal.
+2026-09-24 23:08:08.793 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/vnd.hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/prs.hal-forms+json, application/*+json]
+2026-09-24 23:08:08.794 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EntityModel { content: UsuarioEntity(idUsuario=54, usuario=User_Test_Prueba_Set, contraseña=12345678 (truncated)...]
+2026-09-24 23:08:08.797 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:08:10.063 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tareas-rest/search/porUsuario?id=54&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-24 23:08:10.064 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/tareas-rest/search/porUsuario?id=54&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-24 23:08:10.069 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:08:10.070 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:08:10.075 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tareas-rest/search/porUsuario?id=54&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-24 23:08:10.191 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:08:10.192 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PagedModel { content: [org.springframework.hateoas.server.core.EmbeddedWrappers$EmptyCollectionEmbed (truncated)...]
+2026-09-24 23:08:10.197 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:08:10.199 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/tareas-rest/search/porUsuario?id=54&page=0&size=5&sort=id,desc", parameters={masked}
+2026-09-24 23:08:10.224 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:08:10.224 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PagedModel { content: [org.springframework.hateoas.server.core.EmbeddedWrappers$EmptyCollectionEmbed (truncated)...]
+2026-09-24 23:08:10.230 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:09:43.715 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:09:43.715 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:09:43.719 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:09:43.719 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:09:43.725 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:09:43.967 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:09:43.981 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2536, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:09:44.077 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:09:44.174 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:09:44.243 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:09:44.249 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2536, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:09:44.388 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:45:40.417 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - Starting ProyectoBackEndApplication using Java 17.0.17 with PID 4900 (C:\Users\leofr\OneDrive\Escritorio\ESPECIALIZACION EN JAVA(CIBERTEC) Y OTRAS\JAVA BACK END\PROYECTO FINAL\ProyectoBackEnd (1)\ProyectoBackEnd\target\classes started by leofr in C:\Users\leofr\OneDrive\Escritorio\ESPECIALIZACION EN JAVA(CIBERTEC) Y OTRAS\JAVA BACK END\PROYECTO FINAL\ProyectoBackEnd (1)\ProyectoBackEnd)
+2026-09-24 23:45:40.421 [restartedMain] DEBUG c.e.P.ProyectoBackEndApplication - Running with Spring Boot v3.5.10, Spring v6.2.15
+2026-09-24 23:45:40.423 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-24 23:45:40.507 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-24 23:45:40.508 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-24 23:45:41.852 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 23:45:42.176 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 285 ms. Found 3 JPA repository interfaces.
+2026-09-24 23:45:44.869 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-24 23:45:44.888 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-24 23:45:44.892 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-24 23:45:44.893 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-09-24 23:45:44.982 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-24 23:45:44.983 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4474 ms
+2026-09-24 23:45:45.347 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-24 23:45:45.472 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-09-24 23:45:45.552 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-09-24 23:45:46.037 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24 23:45:46.114 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-24 23:45:46.387 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18f4a5fb
+2026-09-24 23:45:46.392 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-24 23:45:46.469 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-24 23:45:46.507 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24 23:45:47.680 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24 23:45:47.804 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 23:45:48.558 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-24 23:45:49.780 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-24 23:45:50.300 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 17 mappings in 'requestMappingHandlerMapping'
+2026-09-24 23:45:50.534 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-09-24 23:45:50.588 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-24 23:45:50.684 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-09-24 23:45:50.741 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-24 23:45:50.803 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 0 ResponseBodyAdvice
+2026-09-24 23:45:51.221 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-09-24 23:45:51.246 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-24 23:45:51.282 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-24 23:45:51.296 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - Started ProyectoBackEndApplication in 11.486 seconds (process running for 12.467)
+2026-09-24 23:45:58.248 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 23:45:58.249 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-24 23:45:58.249 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-09-24 23:45:58.250 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-09-24 23:45:58.250 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-09-24 23:45:58.252 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@20afd733
+2026-09-24 23:45:58.253 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@64a3dd04
+2026-09-24 23:45:58.254 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-09-24 23:45:58.255 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-09-24 23:45:58.294 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:45:58.294 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:45:58.447 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:45:58.447 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:45:58.468 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:45:59.660 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:45:59.774 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2536, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:46:00.133 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:46:00.247 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:46:00.327 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:46:00.334 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2536, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:46:00.489 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:46:13.190 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:46:13.191 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:46:13.198 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:46:13.201 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:46:13.202 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:46:13.339 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=lmosquera2, contraseña=lmosquera2, fechaCreacion=null, estado= (truncated)...]
+2026-09-24 23:46:13.557 [http-nio-8080-exec-6] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [175] milliseconds.
+2026-09-24 23:46:13.568 [http-nio-8080-exec-6] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: lmosquera2
+2026-09-24 23:46:13.643 [http-nio-8080-exec-6] WARN  c.e.P.controller.LoginController - Login NO REGISTRADO. Contacte con el Admin.
+2026-09-24 23:46:13.656 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-24 23:46:13.657 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Usuario no encontrado en el sistema"]
+2026-09-24 23:46:13.660 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-09-24 23:46:23.610 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:46:23.611 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:46:23.615 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=lmosquera, contraseña=999999999, fechaCreacion=null, estado=nu (truncated)...]
+2026-09-24 23:46:23.616 [http-nio-8080-exec-7] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: lmosquera
+2026-09-24 23:46:23.766 [http-nio-8080-exec-7] INFO  c.e.P.aspect.LogginAspect - Operación validarLogin completada en 8 ms
+2026-09-24 23:46:23.767 [http-nio-8080-exec-7] WARN  c.e.P.controller.LoginController - AUDITORIA: Contraseña incorrecta para el usuario lmosquera
+2026-09-24 23:46:23.784 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-24 23:46:23.784 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Credenciales Incorrectas"]
+2026-09-24 23:46:23.787 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2026-09-24 23:46:29.516 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:46:29.680 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:46:29.685 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2539, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:46:29.750 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:46:29.813 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:46:29.889 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:46:29.894 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2539, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:46:29.998 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:46:35.103 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:46:35.225 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:46:35.227 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2539, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:46:35.270 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:46:35.315 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:46:35.399 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:46:35.403 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2539, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:46:35.484 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:47:54.933 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:47:54.934 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:47:54.938 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=lmosquera, contraseña=leonardo, fechaCreacion=null, estado=nul (truncated)...]
+2026-09-24 23:47:54.940 [http-nio-8080-exec-5] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: lmosquera
+2026-09-24 23:47:54.975 [http-nio-8080-exec-5] INFO  c.e.P.aspect.LogginAspect - Operación validarLogin completada en 6 ms
+2026-09-24 23:47:54.977 [http-nio-8080-exec-5] INFO  c.e.P.controller.LoginController - Login exitoso. Derivando a principal.
+2026-09-24 23:47:55.288 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/vnd.hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/prs.hal-forms+json, application/*+json]
+2026-09-24 23:47:55.289 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EntityModel { content: UsuarioEntity(idUsuario=52, usuario=lmosquera, contraseña=leonardo, fechaCrea (truncated)...]
+2026-09-24 23:47:55.295 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:47:59.915 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:48:00.015 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:48:00.018 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2540, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:48:00.060 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:48:00.095 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:48:00.163 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:48:00.166 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2540, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:48:00.226 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:56:29.939 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - Starting ProyectoBackEndApplication using Java 17.0.17 with PID 16208 (C:\Users\leofr\OneDrive\Escritorio\ESPECIALIZACION EN JAVA(CIBERTEC) Y OTRAS\JAVA BACK END\PROYECTO FINAL\ProyectoBackEnd (1)\ProyectoBackEnd\target\classes started by leofr in C:\Users\leofr\OneDrive\Escritorio\ESPECIALIZACION EN JAVA(CIBERTEC) Y OTRAS\JAVA BACK END\PROYECTO FINAL\ProyectoBackEnd (1)\ProyectoBackEnd)
+2026-09-24 23:56:29.942 [restartedMain] DEBUG c.e.P.ProyectoBackEndApplication - Running with Spring Boot v3.5.10, Spring v6.2.15
+2026-09-24 23:56:29.944 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-24 23:56:30.028 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-24 23:56:30.028 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-24 23:56:31.884 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 23:56:32.265 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 341 ms. Found 3 JPA repository interfaces.
+2026-09-24 23:56:35.619 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-24 23:56:35.648 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-24 23:56:35.654 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-24 23:56:35.654 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-09-24 23:56:35.749 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-24 23:56:35.750 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5720 ms
+2026-09-24 23:56:36.119 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-24 23:56:36.211 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-09-24 23:56:36.298 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-09-24 23:56:36.830 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24 23:56:36.902 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-24 23:56:37.175 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a3c6a4d
+2026-09-24 23:56:37.178 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-24 23:56:37.260 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-24 23:56:37.299 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24 23:56:38.654 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24 23:56:38.782 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 23:56:39.443 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-24 23:56:40.970 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-24 23:56:42.203 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 17 mappings in 'requestMappingHandlerMapping'
+2026-09-24 23:56:42.775 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-09-24 23:56:42.910 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-09-24 23:56:43.123 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-09-24 23:56:43.257 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-09-24 23:56:43.440 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 0 ResponseBodyAdvice
+2026-09-24 23:56:44.391 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-09-24 23:56:44.454 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-24 23:56:44.523 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-24 23:56:44.552 [restartedMain] INFO  c.e.P.ProyectoBackEndApplication - Started ProyectoBackEndApplication in 15.301 seconds (process running for 16.528)
+2026-09-24 23:57:00.119 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 23:57:00.120 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-24 23:57:00.121 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2026-09-24 23:57:00.121 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2026-09-24 23:57:00.122 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2026-09-24 23:57:00.126 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ce75542
+2026-09-24 23:57:00.128 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4580a2d7
+2026-09-24 23:57:00.129 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-09-24 23:57:00.129 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2026-09-24 23:57:00.164 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:57:00.205 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:57:00.280 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:57:00.299 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:57:00.300 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:57:00.603 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=admin, contraseña=1234, fechaCreacion=null, estado=null, fecha (truncated)...]
+2026-09-24 23:57:00.845 [http-nio-8080-exec-2] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
+2026-09-24 23:57:00.855 [http-nio-8080-exec-2] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: admin
+2026-09-24 23:57:01.447 [http-nio-8080-exec-2] INFO  c.e.P.aspect.LogginAspect - Operación validarLogin completada en 8 ms
+2026-09-24 23:57:01.449 [http-nio-8080-exec-2] INFO  c.e.P.controller.LoginController - Login exitoso. Derivando a principal.
+2026-09-24 23:57:01.906 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/vnd.hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/prs.hal-forms+json, application/*+json]
+2026-09-24 23:57:01.910 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EntityModel { content: UsuarioEntity(idUsuario=1, usuario=admin, contraseña=1234, fechaCreacion=2026 (truncated)...]
+2026-09-24 23:57:02.022 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:57:04.769 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:57:05.262 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:57:05.298 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2541, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:57:05.474 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:57:05.577 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:57:05.669 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:57:05.682 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2541, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:57:05.831 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:57:11.414 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:57:11.572 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:57:11.579 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2541, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:57:11.637 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:57:11.703 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:57:11.775 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:57:11.781 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2541, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:57:11.888 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:57:23.086 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:57:23.088 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:57:23.091 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=locomosquera, contraseña=locomosquera, fechaCreacion=null, est (truncated)...]
+2026-09-24 23:57:23.092 [http-nio-8080-exec-7] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: locomosquera
+2026-09-24 23:57:23.101 [http-nio-8080-exec-7] WARN  c.e.P.controller.LoginController - Login NO REGISTRADO: locomosquera
+2026-09-24 23:57:23.119 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-24 23:57:23.120 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Usuario no encontrado en el sistema"]
+2026-09-24 23:57:23.122 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2026-09-24 23:57:46.145 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:57:46.271 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:57:46.274 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2542, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:57:46.317 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:57:46.376 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:57:46.450 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:57:46.455 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2542, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:57:46.532 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:58:26.464 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:58:26.464 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:58:26.467 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=lmosquera, contraseña=ffffff, fechaCreacion=null, estado=null, (truncated)...]
+2026-09-24 23:58:26.467 [http-nio-8080-exec-1] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: lmosquera
+2026-09-24 23:58:26.481 [http-nio-8080-exec-1] WARN  c.e.P.controller.LoginController - AUDITORIA: Contraseña incorrecta para el usuario lmosquera
+2026-09-24 23:58:26.496 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, application/json, application/*+json]
+2026-09-24 23:58:26.497 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["Credenciales Incorrectas"]
+2026-09-24 23:58:26.499 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2026-09-24 23:58:47.335 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:58:47.430 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:58:47.435 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2543, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:58:47.475 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:58:47.512 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:58:47.574 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:58:47.576 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2543, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:58:47.632 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:59:21.690 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/auth-rest/loginAccion", parameters={}
+2026-09-24 23:59:21.691 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.ProyectoBackEnd.controller.LoginController#loginAccion(UsuarioEntity, HttpSession)
+2026-09-24 23:59:21.694 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UsuarioEntity(idUsuario=null, usuario=lmosquera, contraseña=leonardo, fechaCreacion=null, estado=nul (truncated)...]
+2026-09-24 23:59:21.696 [http-nio-8080-exec-6] INFO  c.e.P.controller.LoginController - AUDITORIA: Intento de login para usuario: lmosquera
+2026-09-24 23:59:21.728 [http-nio-8080-exec-6] INFO  c.e.P.aspect.LogginAspect - Operación validarLogin completada en 6 ms
+2026-09-24 23:59:21.728 [http-nio-8080-exec-6] INFO  c.e.P.controller.LoginController - Login exitoso. Derivando a principal.
+2026-09-24 23:59:21.771 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/vnd.hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/prs.hal-forms+json, application/*+json]
+2026-09-24 23:59:21.772 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EntityModel { content: UsuarioEntity(idUsuario=52, usuario=lmosquera, contraseña=leonardo, fechaCrea (truncated)...]
+2026-09-24 23:59:21.776 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:59:24.648 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:59:24.726 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:59:24.729 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:59:24.762 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:59:24.793 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:59:24.828 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:59:24.831 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:59:24.894 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:59:47.991 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:59:48.072 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:59:48.075 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:59:48.105 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/auditoria?size=100&sort=fechaHora,desc", parameters={masked}
+2026-09-24 23:59:48.134 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2026-09-24 23:59:48.177 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/hal+json, application/json]
+2026-09-24 23:59:48.180 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [PagedModel { content: [EntityModel { content: AuditoriaEntity(idauditoria=2544, fechaHora=2026-09-24 (truncated)...]
+2026-09-24 23:59:48.242 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
